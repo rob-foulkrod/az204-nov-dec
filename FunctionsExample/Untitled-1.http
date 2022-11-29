@@ -1,0 +1,15 @@
+get http://localhost:7071/api/Sample_Echo
+
+
+###
+
+get http://localhost:7071/api/Sample_Echo?name=ZoomCat
+
+###
+
+post http://localhost:7071/api/Sample_Echo
+Content-Type: application/json
+
+{
+    "name": "ZoomCat Post"
+}
